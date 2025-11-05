@@ -31,18 +31,17 @@ $$
 The total tour length is defined as:
 
 $$
-f(	au) = \sum_{i=0}^{n-1} d(c_i, c_{(i+1) mod n})
+f(\tau) = \sum_{i=0}^{n-1} d(c_i, c_{(i+1) \bmod n})
 $$
 
 where
 
 $$
-d(p, q) = \left\lfloor \sqrt{(x_p - x_q)^2 + (y_p - y_q)^2} 
-ight
-ceil
+d(p, q) = \lfloor \sqrt{(x_p - x_q)^2 + (y_p - y_q)^2} \rceil
 $$
 
 follows the **TSPLIB rounding rule**.
+
 
 ---
 
