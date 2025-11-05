@@ -76,23 +76,6 @@ python src/tsp_hillclimb.py data/tsplib/ch150.tsp 200
 - Size-aware full/sampled neighborhood strategy  
 - Deterministic reproducibility via random seed  
 
----
-
-## Repository Layout
-
-```
-tsp-hillclimb/
-├── src/
-│   └── tsp_hillclimb.py
-├── docs/
-│   └── report.pdf
-├── data/
-│   ├── tsplib/
-│   └── results/
-├── tests/
-│   └── test_smoke.py
-├── requirements.txt
-└── README.md
 ```
 
 ---
